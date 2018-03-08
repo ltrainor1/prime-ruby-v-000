@@ -1,7 +1,5 @@
-# Add  code here!
-
 def prime?(num)
-<<<<<<< HEAD
+
   if num < 2
     false
   elsif num.even?
@@ -53,8 +51,8 @@ else
     primes    
   end 
 end 
-end 
->>>>>>> d2c348f7d676efdc2a59aac82b92948f327ef451
+
+
 
 
  
