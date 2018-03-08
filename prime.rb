@@ -24,7 +24,7 @@ def prime?(num)
     return primes.include?(num)
   end
 end
-=======
+
 if num < 2
   false
 elsif num.even?
@@ -53,7 +53,7 @@ else
 end
 
 
-
+end 
 
 
 
