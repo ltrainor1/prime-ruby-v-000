@@ -1,6 +1,7 @@
 # Add  code here!
 
 def prime?(num)
+<<<<<<< HEAD
   if num < 2
     false
   elsif num.even?
@@ -25,6 +26,35 @@ def prime?(num)
     return primes.include?(num)
   end
 end
+=======
+if num < 2 
+  false 
+elsif num.even?
+  false  
+else 
+   primes = Array.new 
+  primes << 2 
+  primes << 3 
+  i = 5
+  old_prime = false  
+  
+  while i < 2000 
+    primes.each do |prime|
+      old_prime = i % prime != 0 
+    end
+    if old_prime  
+      primes << i
+    end 
+    i += 2  
+  end 
+  if primes.include?(num)
+    primes 
+  else 
+    primes    
+  end 
+end 
+end 
+>>>>>>> d2c348f7d676efdc2a59aac82b92948f327ef451
 
 
  
